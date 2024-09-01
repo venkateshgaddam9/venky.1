@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(208, 176, 222);
+    margin: 0;
+}
+
+.a {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.aa {
+    position: fixed;
+    top: 0;
+    background-color: gray;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 98%;
+    padding: 20px;
+    text-align: center;
+}
+
+.b {
+    width: 400px;
+    padding: 30px;
+    border: 3px solid black;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.b:hover {
+    background-color: rgb(106, 225, 255);
+    rotate: 20deg;
+}
+
+.bb img {
+    transition-duration: 4s;
+    margin-top: 10px;
+    transition-delay: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.bb:hover img {
+    translate: 100px;
+    border-radius: 50%;
+}
+
+.c {
+    width: 350px;
+    position: absolute;
+    right: 200px;
+    bottom: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    align-content: center;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+}
+
+.cc img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.c:hover {
+    background-color: rgba(229, 62, 238, 0.856);
+    transform: scale(1.5);
+}
+
+.d {
+    display: inline-block;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    align-content: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.d:hover {
+    transform: skew(17deg, 27deg);
+    opacity: 0.5;
+}
+
+.e {
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    padding: 15px;
+    align-content: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.e:hover {
+    translate: 100px;
+    color: olive;
+    font-family: sans-serif;
+}
+
+.f {
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 99%;
+    padding: 20px;
+    text-align: center;
+}
